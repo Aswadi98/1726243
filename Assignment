@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport"
+    content="width=device-width,initial-scale=1">
+    <title>Web-Based Mahallah Pre-Registration</title>
+    <style>
+    .test {
+        position: relative;
+      }
+
+      .test::before {
+        border-top: 500px solid white;
+        border-bottom: 580px solid white;
+        border-left: 1280px solid transparent;
+        position: absolute;
+        content: "";
+      }
+
+
+      input[type=type], select{
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizzing: border-box;
+      }
+      input[type=Login] {
+        width: 20%;
+        background-color: gray;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      input[type=login]:hover {
+        background-color: #45a049;
+      }
+      div {
+        border-radius: 5px;
+        background-color: transparent;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 align="right">Web-Based Mahallah Pre-Registration</h1>
+    <figure class="test">
+      <img src="http://photos.iium.edu.my/flagship/river_of_life.jpg">
+    </figure>
+    <div>
+  <form action="/action_page.php" align="right">
+    <p><b>Login</b></p>
+    <br><br>
+    <label for="fname"></label>
+    <input type="text" id="fname" placeholder="Enter Matric No">
+    <br><br>
+    <label for="lname"></label>
+    <input type="text" id="lname" placeholder="Enter Password">
+    <br><br>
+    <input type="checkbox" name="Remember Me" value="Remember Me">Remember Me
+    <br><br>
+    <input type="Login" value="Login">
+  </form>
+</div>
+  </body>
+</html>
